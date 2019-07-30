@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<title>Listagem dos Atletas</title>
+<meta description="Site de controle dos atletas do colégio - Desafio IBM">
+<link rel="stylesheet" type="text/css" href="padrao.css">
+<meta charset="utf-8">
+</head>
+<body>
+<header>
+<h1>CADE - Controle de Atletas Estudantis</h1>
+	</header>
+	<nav> <ul> <center>
+	<li> <a href="AtletasCadastro.html">Cadastro</a> - <a href="Listagem.html">Listagem</a> - <a href="https://www.linkedin.com/in/douglas-barbosa-1b8885127/"> Contato </a></li> 
+	</nav> </ul>
+	<article>
+	<form action="Listagem.html" method="post">
+	<table class="tabelaListagem">
+	<caption> Lista de Atletas </caption>
+	<label>Filtro: <select name="Filtro" id="filtro">
+	<option name="filtro_choice" value="Todos">Todos</option>
+	<option name="filtro_choice" value="Treinando">Treinando</option>
+	<option name="filtro_choice" value="Praticando">Praticando</option> </select> </label>
+	<tr><td>Nome</td><td>Modalidade</td><td>Situação</td><td>Peso</td><td>Altura</td><td>IMC</td></tr>
+	</table>
+	<footer>
+	<script type="javascript" src="jquery.js"> </script>
+	<script type="javascript" src="script_jquery.js"> </script>
+	
+	Developed by Douglas Barbosa <br>
+	DESAFIO IBM
+	</footer>
+</body>
+</html>
+
+/* A tabela deve receber os dados e o filtro poder ser manipulado para a visualização dos dados */

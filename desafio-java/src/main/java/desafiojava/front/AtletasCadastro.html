@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<title>Cadastro de Atletas</title>
+<meta description="Site de controle dos atletas do colégio - Desafio IBM">
+<link rel="stylesheet" type="text/css" href="padrao.css">
+<meta charset="utf-8">
+
+	</head>
+	<body>
+	<header>
+<h1>CADE - Controle de Atletas Estudantis</h1>
+	</header>
+	<nav> <ul> <center>
+	<li> <a href="AtletasCadastro.html">Cadastro</a> - <a href="Listagem.html">Listagem</a> - <a href="https://www.linkedin.com/in/douglas-barbosa-1b8885127/">Contato</a></li> 
+	</nav> </ul>
+	<article>
+	<form action="" method="post">
+	<table border="1">
+	<tr><td>
+	<label>Nome:*</td><td><input type="text" name="nome" id="nome" required="required" placeholder="Insira seu nome"> </label>
+	</tr></td>
+	<tr><td>
+	<label>Modalidade:*</td><td>  <select name="Modalidades" id="modalid" required="required">
+	<option name="nat" value="Natação">Natação</option>
+	<option name="vol" value="Volei">Volei</option>
+	<option name="fut" value="Futebol">Futebol</option>
+	<option name="basq" value="Basquete">Basquete</option>
+	<option name="hand" value="Handball">Handball</option></select> </label>
+	</tr></td>
+	<tr><td>
+	<label>Peso:*</td><td>   <input type="float" name="peso" id="peso" required="required" placeholder="Exemplo: 72,6"> </label>
+	<br>
+	</tr></td>
+	<tr><td>
+	<label>Altura:*</td><td><input type="float" name="altura" id="altura" required="required" placeholder="Exemplo: 183 = 1.83"> </label>
+	</tr></td>
+	<tr><td>
+	<label>Situação:</td><td> <input type="radio" name="situacao" value="Treinando" class="check_in" checked="Checked"> Treinando  
+	<input type="radio" name="situacao" value="Praticando" class="check_in"> Praticando  
+	<input type="radio" name="situacao" value="Estudando" class="check_in"> Estudando </label>
+	</tr></td>
+	<tr><td>
+	<button>Enviar</button>
+	<span id="mensagem"> </span>
+ </tr></td>
+	</table>
+	</form>
+	
+	</article>
+	
+	<footer>
+	<script type="javascript" src="jquery.js"> </script>
+	<script type="javascript" src="script_jquery.js"> </script>
+	
+	Developed by Douglas Barbosa <br>
+	DESAFIO IBM
+	</footer>
+	</body>
+</html>
+
+/* Forms que preenche as informações dos atletas e através da situação, decide se o IMC será calculado */

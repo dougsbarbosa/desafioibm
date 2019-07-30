@@ -1,0 +1,48 @@
+header {
+	background: rgba(0,0,255,0.5);
+	position: relative;
+	height: 50px;
+	font-family: Verdana;
+	font-size: 12px;
+	text-align: center;
+	border: 30px;
+	color: white;
+	border-radius: 20px 20px 30px 30px;
+}
+nav ul {
+	padding: 2px;
+	background: rgba(1,1,1,0.1);
+	list-style-type: none;
+	border-radius: 100px 100px 0px 0px;
+	font-family: Tahoma;
+	font-size: 11px;
+}
+article {
+	position: relative;
+	left: 100px;
+}
+form{
+	font-family: Tahoma;
+	font-size: 13px;
+}
+table{
+	border: none;
+}
+
+.tabelaListagem{
+	margin-left: auto;
+  	margin-right: auto;
+}
+tr td{
+	border: none;
+	padding: 15px;
+}
+footer {
+	position: relative;
+	weight: 70px;
+	border-radius: 30px 30px 20px 20px;
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: center;
+	height: 20px; 
+}
